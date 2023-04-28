@@ -13,21 +13,21 @@ function send_to_lawpay($payment_token_id, $bs_form_id, $amount, $pnc_name_full)
     bs('/actions-outgoing/submit_charge.php');
 
     switch ($bs_form_id) {
-            // case 21: // New Lead Form
-            //     $lawpay_account = LAWPAY_TEST_ACCOUNT; // LAWPAY_TRANSACTION_ACCOUNT
-            //     break;
-            // case 43: // Payment Consult Family Law Form
-            //     $lawpay_account = LAWPAY_TEST_ACCOUNT; // LAWPAY_TRANSACTION_ACCOUNT
-            //     break;
-            // case 46: // Payment Consult SPED Form
-            //     $lawpay_account = LAWPAY_TEST_ACCOUNT; // LAWPAY_TRANSACTION_ACCOUNT
-            //     break;
-            // case 48: // Payment Consult Retainer Form
-            //     $lawpay_account = LAWPAY_TEST_ACCOUNT; // LAWPAY_TRUST_ACCOUNT
-            //     break;
-            // case 78: // Payment SPED SET CONSULT Form
-            //     $lawpay_account = LAWPAY_TEST_ACCOUNT; // LAWPAY_TRUST_ACCOUNT
-            //     break;
+        case 21: // New Lead Form
+            $lawpay_account = LAWPAY_TEST_ACCOUNT; // LAWPAY_TRANSACTION_ACCOUNT
+            break;
+        case 43: // Payment Consult Family Law Form
+            $lawpay_account = LAWPAY_TEST_ACCOUNT; // LAWPAY_TRANSACTION_ACCOUNT
+            break;
+        case 46: // Payment Consult SPED Form
+            $lawpay_account = LAWPAY_TEST_ACCOUNT; // LAWPAY_TRANSACTION_ACCOUNT
+            break;
+        case 48: // Payment Consult Retainer Form
+            $lawpay_account = LAWPAY_TEST_ACCOUNT; // LAWPAY_TRUST_ACCOUNT
+            break;
+        case 78: // Payment SPED SET CONSULT Form
+            $lawpay_account = LAWPAY_TEST_ACCOUNT; // LAWPAY_TRUST_ACCOUNT
+            break;
         default:
             $lawpay_account = LAWPAY_TEST_ACCOUNT;
     }
