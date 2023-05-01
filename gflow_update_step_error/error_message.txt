@@ -1,0 +1,11 @@
+[01-May-2023 07:41:09 UTC] actions-local/update_gravityflow_step.php
+[01-May-2023 07:41:09 UTC] FORM ID: 21
+[01-May-2023 07:41:09 UTC] Entry ID: 13817
+[01-May-2023 07:41:09 UTC] STEP ID: 8
+[01-May-2023 07:41:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Gravity_Flow_API' not found in /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/actions-local/update_gflow_step.php:46
+Stack trace:
+#0 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/actions-local/hubspot/move_nlf_entry_to_complete.php(31): update_gravityflow_step(21, 13817, 8)
+#1 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/actions-local/hubspot_incoming_webhook.php(13): include('/home/customer/...')
+#2 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/triggers/bs_incoming_webhooks.php(26): include('/home/customer/...')
+#3 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/includes/load_triggers.php(15): require_once('/home/customer/...')
+#4 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/bs-rlp-customizations.php(58): require_on in /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/actions-local/update_gflow_step.php on line 46
