@@ -1,11 +1,285 @@
-[01-May-2023 07:41:09 UTC] actions-local/update_gravityflow_step.php
-[01-May-2023 07:41:09 UTC] FORM ID: 21
-[01-May-2023 07:41:09 UTC] Entry ID: 13817
-[01-May-2023 07:41:09 UTC] STEP ID: 8
-[01-May-2023 07:41:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Gravity_Flow_API' not found in /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/actions-local/update_gflow_step.php:46
+
+
+[01-May-2023 21:56:06 UTC] /actions-local/hubspot_incoming_webhook.php
+[01-May-2023 21:56:06 UTC] actions-local/hubspot/move_nlf_entry_to_complete.php
+[01-May-2023 21:56:06 UTC] actions-local/update_gravityflow_step.php
+[01-May-2023 21:56:06 UTC] FORM ID: 21
+[01-May-2023 21:56:06 UTC] Entry ID: 14336
+[01-May-2023 21:56:06 UTC] STEP ID: 8
+[01-May-2023 21:56:06 UTC] ENTRY: 
+[01-May-2023 21:56:06 UTC] Array
+(
+    [id] => 14336
+    [form_id] => 21
+    [post_id] => 
+    [date_created] => 2023-04-27 17:15:47
+    [date_updated] => 2023-04-27 17:15:47
+    [is_starred] => 0
+    [is_read] => 1
+    [ip] => 73.127.62.232
+    [source_url] => https://ramagelawportal.com/new-lead-form/?id=21&workflow_parent_entry_id=14334
+    [user_agent] => API
+    [currency] => USD
+    [payment_status] => 
+    [payment_date] => 
+    [payment_amount] => 
+    [payment_method] => 
+    [transaction_id] => 
+    [is_fulfilled] => 
+    [created_by] => 80
+    [transaction_type] => 
+    [status] => active
+    [2] => Sales Consultant
+    [91] => Sales Consultant
+    [3] => Caller
+    [5.3] => L8
+    [5.6] => Sblik
+    [276.3] => L8
+    [276.6] => Sblik
+    [8] => (999) 999-9999
+    [7] => l8@sblik.com
+    [6] => Male
+    [10.3] => McKinney
+    [10.4] => Texas
+    [10.6] => United States
+    [11] => 5 months
+    [89] => Dallas
+    [13] => 5 years
+    [24] => This is a test
+    [85] => Test
+    [15] => No
+    [25] => Special-Education
+    [116] => test
+    [122] => 50000
+    [112] => Yes
+    [115.3] => test
+    [115.6] => test
+    [119] => (999) 999-9999
+    [120] => test@test.com
+    [121] => test
+    [118] => 50000
+    [28] => test
+    [53] => No
+    [55] => 02 SMB: LSA
+    [254] => No
+    [62] => Yes
+    [273] => Yes
+    [127] => 40005 Special-Education
+    [101] => Special-Education
+    [56] => 4000502
+    [180] => 262251
+    [151] => 13162328896
+    [184] => 14334
+    [220] => 14335
+    [141] => 51
+    [139] => No
+    [104] => https://ramagelawportal.com/pdf/62827c26776a4/14336/
+    [103] => https://ramagelawportal.com/view/client-document-vault/entry/14335
+    [253] => Yes
+    [280] => 40005 Special-Education
+    [272] => 
+    [256] => 
+    [279] => 
+    [281] => 
+    [278] => 
+    [1] => 
+    [181] => 
+    [183] => 
+    [182] => 
+    [4] => 
+    [5.2] => 
+    [5.4] => 
+    [5.8] => 
+    [276.2] => 
+    [276.4] => 
+    [276.8] => 
+    [285] => 
+    [9] => 
+    [10.1] => 
+    [10.2] => 
+    [10.5] => 
+    [240] => 
+    [42.2] => 
+    [42.3] => 
+    [42.4] => 
+    [42.6] => 
+    [42.8] => 
+    [242] => 
+    [243] => 
+    [244] => 
+    [14] => 
+    [83] => 
+    [81] => 
+    [16] => 
+    [17] => 
+    [18] => 
+    [19] => 
+    [20] => 
+    [21] => 
+    [134] => 
+    [135] => 
+    [22] => 
+    [23] => 
+    [26] => 
+    [27] => 
+    [113] => 
+    [114] => 
+    [294] => 
+    [115.2] => 
+    [115.4] => 
+    [115.8] => 
+    [29] => 
+    [30] => 
+    [33] => 
+    [32] => 
+    [128] => 
+    [34.1] => 
+    [34.2] => 
+    [34.3] => 
+    [34.4] => 
+    [34.5] => 
+    [34.6] => 
+    [129] => 
+    [130] => 
+    [131] => 
+    [132] => 
+    [295] => 
+    [296] => 
+    [297] => 
+    [35] => 
+    [36] => 
+    [293] => 
+    [37] => 
+    [38] => 
+    [39] => 
+    [40] => 
+    [41] => 
+    [43] => 
+    [44] => 
+    [45] => 
+    [46] => 
+    [47] => 
+    [48] => 
+    [49] => 
+    [50] => 
+    [51] => 
+    [52] => 
+    [54] => 
+    [58] => 
+    [59] => 
+    [60] => 
+    [61] => 
+    [63] => 
+    [133] => 
+    [64] => 
+    [79.1] => 
+    [79.2] => 
+    [79.3] => 
+    [79.4] => 
+    [79.5] => 
+    [79.6] => 
+    [79.7] => 
+    [79.8] => 
+    [79.9] => 
+    [79.11] => 
+    [292.1] => 
+    [292.2] => 
+    [292.3] => 
+    [292.4] => 
+    [292.5] => 
+    [292.6] => 
+    [292.7] => 
+    [292.8] => 
+    [292.9] => 
+    [292.11] => 
+    [66] => 
+    [67] => 
+    [186] => 
+    [275] => 
+    [68] => 
+    [69] => 
+    [238] => 
+    [192] => 
+    [146] => 
+    [70] => 
+    [291] => 
+    [287] => 
+    [290] => 
+    [187] => 
+    [93] => 
+    [245] => 
+    [246] => 
+    [145] => 
+    [247] => 
+    [248] => 
+    [282] => 
+    [228] => 
+    [71] => 
+    [72] => 
+    [179] => 
+    [172] => 
+    [217] => 
+    [233] => 
+    [236] => 
+    [191] => 
+    [227] => 
+    [241] => 
+    [232] => 
+    [147] => 
+    [235] => 
+    [152] => 
+    [155] => 
+    [156] => 
+    [167] => 
+    [169.1] => 
+    [157.2] => 
+    [157.3] => 
+    [157.4] => 
+    [157.6] => 
+    [157.8] => 
+    [158] => 
+    [159] => 
+    [160.1] => 
+    [160.2] => 
+    [160.3] => 
+    [160.4] => 
+    [160.5] => 
+    [160.6] => 
+    [161] => 
+    [162] => 
+    [163] => 
+    [229] => 
+    [237] => 
+    [190] => 
+    [277] => 
+    [166] => 
+    [198] => 
+    [224] => 
+    [223] => 
+    [263] => 
+    [267] => 
+    [108] => 
+    [154] => 
+    [109] => 
+    [265] => 
+    [96] => 
+    [264] => 
+    [125] => 
+    [124] => 
+    [269] => 
+    [266] => 
+    [174] => 
+    [231] => 
+    [219] => 
+    [268] => 
+    [123] => 
+    [110] => 
+)
+
+[01-May-2023 21:56:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Gravity_Flow_API' not found in /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/actions-local/update_gflow_step.php:64
 Stack trace:
-#0 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/actions-local/hubspot/move_nlf_entry_to_complete.php(31): update_gravityflow_step(21, 13817, 8)
+#0 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/actions-local/hubspot/move_nlf_entry_to_complete.php(31): update_gravityflow_step(21, 14336, 8)
 #1 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/actions-local/hubspot_incoming_webhook.php(13): include('/home/customer/...')
 #2 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/triggers/bs_incoming_webhooks.php(26): include('/home/customer/...')
 #3 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/includes/load_triggers.php(15): require_once('/home/customer/...')
-#4 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/bs-rlp-customizations.php(58): require_on in /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/actions-local/update_gflow_step.php on line 46
+#4 /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/bs-rlp-customizations.php(58): require_on in /home/customer/www/ramagelawportal.com/public_html/wp-content/plugins/bs-rlp-customizations/actions-local/update_gflow_step.php on line 64

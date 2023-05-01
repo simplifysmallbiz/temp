@@ -39,13 +39,31 @@ function update_gravityflow_step($bs_form_id, $bs_entry_id, $bs_step_id)
     bs('STEP ID: ' . $bs_step_id);
 
     /**
+     * Get the entry
+     */
+
+    try {
+        $bs_entry = GFAPI::get_entry($bs_entry_id);
+        bs('ENTRY: ');
+        bs($bs_entry);
+    } catch (Exception $err) {
+        $errors = array();
+        bs('' . $err->getMessage());
+        foreach ($err as $error) {
+            bs('Content: ' . $error);
+        }
+    }
+
+
+
+    /**
      * Update
      */
 
     try {
         $api = new Gravity_Flow_API($bs_form_id);
 
-        $result = $api->send_to_step($bs_entry_id, $bs_step_id);
+        $result = $api->send_to_step($bs_entry, $bs_step_id);
         return $result;
     } catch (Exception $err) {
         $errors = array();
